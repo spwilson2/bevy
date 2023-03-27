@@ -1845,13 +1845,13 @@ description = "Demonstrates resizing and responding to resizing a window"
 category = "Window"
 wasm = true
 
-[profile.wasm-release]
-inherits = "release"
-opt-level = "z"
-lto = "fat"
-codegen-units = 1
-
-[profile.stress-test]
-inherits = "release"
-lto = "fat"
-panic = "abort"
+#[profile.wasm-release]
+#inherits = "release"
+#opt-level = "z"
+#lto = "fat"
+#codegen-units = 1
+#
+#[profile.stress-test]
+#inherits = "release"
+#lto = "fat"
+#panic = "abort"
